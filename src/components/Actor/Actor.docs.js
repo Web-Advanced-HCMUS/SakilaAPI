@@ -5,46 +5,53 @@
  *     summary: Danh sách diễn viên
  *     tags:
  *       - Actor
- *     parameters:
- *       - name: orderBy
- *         in: query
- *         description: Sort theo start_time/stop_time/test_time/dc_volt/batt_curr
- *       - name: sort
- *         in: query
- *         description: asc/desc
- *       - name: fromDate
- *         in: query
- *         description: Format YYYY-MM-DD
- *       - name: toDate
- *         in: query
- *         description: Format YYYY-MM-DD
- *       - name: page
- *         in: query
- *         description: Vị trí trang số
- *       - name: limit
- *         in: query
- *         description: Số phần tử 1 trang
- *       - name: body
+ *     responses:
+ *       200:
+ *         name: body
  *         in: body
  *         required: true
- *         properties:
- *           area:
- *             type: Array
- *           zone:
- *             type: Array
- *           province:
- *             type: Array
- *           branch:
- *             type: Array
- *           nameDev:
- *             type: Array
- *         example: {
- *           "area": ['MN', MB'],
- *           "zone": ['V4', 'V5'],
- *           "province": ['HCM', 'DNG'],
- *           "branch": ['BTHT3', 'BTHT1'],
- *           "nameDev": ['NTGP00901PWEN1U'],
- *         }
+ *         description: data report
+ *         schema:
+ *           type: object
+ *           properties:
+ *             $ref: '#/definitions/dashboard'
+ *           example: {
+ *              success: true
+ *           }
+ *       404:
+ *         description: When data cannot be process
+ *         schema:
+ *           type: array
+ *           items:
+ *             type: object
+ *             properties:
+ *               $ref: '#/definitions/ValidatorErrorItem'
+ *           example: {
+ *             success: false,
+ *             errors: {
+ *                 "param": "EXISTS",
+ *               }
+ *           }
+ *       500:
+ *         description: When got server exception
+ *         schema:
+ *           type: string
+ *           example: "Internal server error"
+ */
+
+/**
+ * @swagger
+ * /actor/find-by-id/{id}:
+ *   get:
+ *     summary: Tìm một diễn viên theo ID
+ *     tags:
+ *       - Actor
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         type: string
+ *         description: ID của diễn viên
  *     responses:
  *       200:
  *         name: body
@@ -98,6 +105,110 @@
  *         example: {
  *           "first_name": "Huynh",
  *           "last_name": "Le"
+ *         }
+ *     responses:
+ *       200:
+ *         name: body
+ *         in: body
+ *         required: true
+ *         description: data report
+ *         schema:
+ *           type: object
+ *           properties:
+ *             $ref: '#/definitions/dashboard'
+ *           example: {
+ *              success: true
+ *           }
+ *       404:
+ *         description: When data cannot be process
+ *         schema:
+ *           type: array
+ *           items:
+ *             type: object
+ *             properties:
+ *               $ref: '#/definitions/ValidatorErrorItem'
+ *           example: {
+ *             success: false,
+ *             errors: {
+ *                 "param": "EXISTS",
+ *               }
+ *           }
+ *       500:
+ *         description: When got server exception
+ *         schema:
+ *           type: string
+ *           example: "Internal server error"
+ */
+
+/**
+ * @swagger
+ * /actor/delete-one/{id}:
+ *   delete:
+ *     summary: Xóa một diễn viên bằng id
+ *     tags:
+ *       - Actor
+ *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         type: string
+ *         description: ID của diễn viên
+ *     responses:
+ *       200:
+ *         name: body
+ *         in: body
+ *         required: true
+ *         description: data report
+ *         schema:
+ *           type: object
+ *           properties:
+ *             $ref: '#/definitions/dashboard'
+ *           example: {
+ *              success: true
+ *           }
+ *       404:
+ *         description: When data cannot be process
+ *         schema:
+ *           type: array
+ *           items:
+ *             type: object
+ *             properties:
+ *               $ref: '#/definitions/ValidatorErrorItem'
+ *           example: {
+ *             success: false,
+ *             errors: {
+ *                 "param": "EXISTS",
+ *               }
+ *           }
+ *       500:
+ *         description: When got server exception
+ *         schema:
+ *           type: string
+ *           example: "Internal server error"
+ */
+
+/**
+ * @swagger
+ * /actor/update-one:
+ *   put:
+ *     summary: Chỉnh sửa thông tin một diễn viên
+ *     tags:
+ *       - Actor
+ *     parameters:
+ *       - name: body
+ *         in: body
+ *         required: true
+ *         properties:
+ *           id:
+ *             type: string
+ *           firstName:
+ *             type: String
+ *           lastName:
+ *             type: String
+ *         example: {
+ *           "id": 201,
+ *           "firstName": "Huynh",
+ *           "lastName": "Le"
  *         }
  *     responses:
  *       200:

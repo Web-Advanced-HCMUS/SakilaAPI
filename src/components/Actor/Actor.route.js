@@ -9,9 +9,24 @@ router.route('/get-list')
     ActorController.getListAllController
   );
 
+router.route('/find-by-id/:id')
+  .get(
+    ActorController.findOneByIdController
+  );
+
 router.route('/add-one')
   .post(
     ActorController.addActorController
+  );
+  
+router.route('/delete-one/:id')
+  .delete(
+    ActorController.deleteOneActorController
+  );
+
+router.route('/update-one')
+  .put(
+    ActorController.updateOneActorController
   );
 
 export default router;

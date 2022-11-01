@@ -1,5 +1,4 @@
 import db from "../../connection.js";
-import moment from "moment/moment.js";
 import { errorMessage } from "../../utils/error.js";
 
 const TABLE_NAME = 'actor';
@@ -32,9 +31,13 @@ export async function addActorService(body) {
   try {
     const query = `insert into ${TABLE_NAME} set ?`;
 
-    const last_update = new Date();
+    const { firstName, lastName } = body;
+    const data = {
+      first_name: firstName,
+      last_name: lastName
+    }
 
-    await db.query(query, { ...body, last_update });
+    await db.query(query, data);
 
     return true;
   } catch (error) {
@@ -54,9 +57,9 @@ export async function deleteOneActorService(id) {
   }
 }
 
-export async function updateOneActorService(body) {
+export async function updateOneActorService(id, body) {
   try {
-    const { id, firstName, lastName } = body;
+    const { firstName, lastName } = body;
     const checkExistQuery = `select * from ${TABLE_NAME} where actor_id=${id}`;
 
     const [existRows, existField] = await db.query(checkExistQuery);

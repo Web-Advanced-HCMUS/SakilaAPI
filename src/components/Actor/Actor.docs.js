@@ -98,13 +98,13 @@
  *         in: body
  *         required: true
  *         properties:
- *           first_name:
+ *           firstName:
  *             type: String
- *           last_name:
+ *           lastName:
  *             type: String
  *         example: {
- *           "first_name": "Huynh",
- *           "last_name": "Le"
+ *           "firstName": "Huynh",
+ *           "lastName": "Le"
  *         }
  *     responses:
  *       200:

@@ -45,8 +45,9 @@ export async function deleteOneActorController(req, res) {
 
 export async function updateOneActorController(req, res) {
   try {
+    const { id } = req.params;
     const { body } = req;
-    const result = await ActorService.updateOneActorService(body);
+    const result = await ActorService.updateOneActorService(id, body);
 
     return res.RH.success(result);
   } catch (error) {

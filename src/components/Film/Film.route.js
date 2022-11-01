@@ -10,9 +10,29 @@ router.route('/get-all')
     FilmController.getAllFilmController
   );
 
-router.route('/get-one-by-name/:name')
+router.route('/get-by-name/:name')
   .get(
-    
+    FilmValidator.getFilmNameValidator,
+    FilmController.getOneFilmByNameController
+  );
+
+router.route('/add-one')
+  .post(
+    FilmValidator.getFilmBodyValidator,
+    FilmController.addOneFilmController
+  );
+
+router.route('/delete-one/:id')
+  .delete(
+    FilmValidator.getFilmIdValidator,
+    FilmController.deleteOneByIdController
+  );
+
+router.route('/update-one/:id')
+  .put(
+    FilmValidator.getFilmIdValidator,
+    FilmValidator.getFilmBodyValidator,
+    FilmController.updateOneByIdController
   );
 
 export default router;

@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Router } from 'express';
 
 import ActorRoute from './components/Actor/Actor.route.js';
 

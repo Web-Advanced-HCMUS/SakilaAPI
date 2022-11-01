@@ -1,6 +1,8 @@
 import mysql from 'mysql2';
 
-const { DB_HOST, DB_PORT, DB_USER, DB_PASS, DB_NAME } = process.env;
+const {
+  DB_HOST, DB_PORT, DB_USER, DB_PASS, DB_NAME
+} = process.env;
 
 const createConection = () => {
   const connection = mysql.createPool({
@@ -13,6 +15,6 @@ const createConection = () => {
   });
 
   return connection.promise();
-}
+};
 
 export default createConection();

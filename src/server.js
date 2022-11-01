@@ -9,7 +9,6 @@ import errorHandle from './utils/errorHandle.js';
 import apis from './endpoints.js';
 import swaggerSpec from './docs.js';
 
-
 const { PORT } = process.env;
 
 const app = new Express();
@@ -35,7 +34,7 @@ const httpServer = http.createServer(app, (req, res) => {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE'
   });
-  res.end('Hi there!')
+  res.end('Hi there!');
 });
 
 httpServer.listen(PORT, async (error) => {

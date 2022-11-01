@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Router } from 'express';
 
 import * as ActorController from './Actor.controller.js';
 import * as ActorValidator from './Actor.validator.js';
@@ -21,7 +21,7 @@ router.route('/add-one')
     ActorValidator.getFullNameValidator,
     ActorController.addActorController
   );
-  
+
 router.route('/delete-one/:id')
   .delete(
     ActorValidator.getActorIdValidator,

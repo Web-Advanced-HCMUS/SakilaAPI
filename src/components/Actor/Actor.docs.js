@@ -2,7 +2,7 @@
  * @swagger
  * /actor/get-list:
  *   get:
- *     summary: Danh sách diễn viên
+ *     summary: Danh sách tất cả diễn viên
  *     tags:
  *       - Actor
  *     responses:
@@ -189,24 +189,26 @@
 
 /**
  * @swagger
- * /actor/update-one:
+ * /actor/update-one/{id}:
  *   put:
  *     summary: Chỉnh sửa thông tin một diễn viên
  *     tags:
  *       - Actor
  *     parameters:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         type: string
+ *         description: ID của diễn viên
  *       - name: body
  *         in: body
  *         required: true
  *         properties:
- *           id:
- *             type: string
  *           firstName:
  *             type: String
  *           lastName:
  *             type: String
  *         example: {
- *           "id": 201,
  *           "firstName": "Huynh",
  *           "lastName": "Le"
  *         }

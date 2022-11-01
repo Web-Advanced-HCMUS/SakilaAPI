@@ -17,7 +17,9 @@
         ]
       }
     ],
-    "comma-dangle": "warn",
+    "import/extensions": "off",
+    "no-unused-vars": "off",
+    "comma-dangle": "off",
     "no-lonely-if": "warn",
     "prefer-destructuring": "warn",
     "valid-jsdoc": "warn",

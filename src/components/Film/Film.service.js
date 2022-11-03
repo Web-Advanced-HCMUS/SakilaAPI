@@ -103,7 +103,6 @@ export async function updateOneByIdService(id, body) {
         else specialFeatures += array[i];
       }
     }
-    console.log(specialFeatures)
 
     const data = {
       title: body?.title,

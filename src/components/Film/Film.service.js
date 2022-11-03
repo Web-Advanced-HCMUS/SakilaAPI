@@ -54,7 +54,7 @@ export async function addOneFilmService(body) {
       length: body?.length,
       replacement_cost: body?.replacementCost,
       rating: FILM_RATING[body?.rating],
-      special_features: specialFeatures === '' ? null : `(${specialFeatures})`
+      special_features: specialFeatures === '' ? null : `${specialFeatures}`
     };
 
     const checkLanguageIdQuery = `select * from language where language_id=${data.language_id}`;
@@ -103,6 +103,7 @@ export async function updateOneByIdService(id, body) {
         else specialFeatures += array[i];
       }
     }
+    console.log(specialFeatures)
 
     const data = {
       title: body?.title,
@@ -114,7 +115,7 @@ export async function updateOneByIdService(id, body) {
       length: body?.length,
       replacement_cost: body?.replacementCost,
       rating: FILM_RATING[body?.rating],
-      special_features: specialFeatures === '' ? null : `(${specialFeatures})`
+      special_features: specialFeatures === '' ? null : `${specialFeatures}`
     };
     const checkExistQuery = `select film_id from ${TABLE_NAME} where film_id=${id}`;
     const [findId, idFields] = await db.query(checkExistQuery);

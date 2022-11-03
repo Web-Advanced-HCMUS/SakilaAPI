@@ -27,7 +27,6 @@ const options = {
   apis: [
     'src/components/**/*.route.js',
     'src/components/**/*.docs.js',
-    'src/components/**/*.model.js',
     'src/utils/validatorErrorHandler.js',
   ],
 };

@@ -8,12 +8,26 @@ import ResponseHandler from './utils/respone.js';
 import errorHandle from './utils/errorHandle.js';
 import apis from './endpoints.js';
 import swaggerSpec from './docs.js';
+import logger from './logger.js';
 
 const { PORT } = process.env;
 
 const app = new Express();
 
-app.use(morgan('tiny'));
+app.use(morgan((tokens, req, res) => {
+  const responeMess = [
+    tokens.method(req, res),
+    tokens.url(req, res),
+    tokens.status(req, res),
+    tokens.res(req, res, 'content-length'), '-',
+    tokens['response-time'](req, res), 'ms'
+  ].join(' ');
+
+  if (res.statusCode < 400) logger.info(responeMess);
+  else logger.error(res.statusMessage);
+
+  return responeMess;
+}));
 app.use(bodyParser.json({ limit: '20mb' }));
 app.use(bodyParser.urlencoded({ limit: '20mb', extended: false }));
 
@@ -39,9 +53,9 @@ const httpServer = http.createServer(app, (req, res) => {
 
 httpServer.listen(PORT, async (error) => {
   if (error) {
-    console.log('Cannot start backend services.');
-    console.log(error);
+    logger.error('Cannot start backend services.');
+    logger.error(error);
   } else {
-    console.log(`Backend service is running on port: ${PORT}.`);
+    logger.info(`Backend service is running on port: ${PORT}.`);
   }
 });

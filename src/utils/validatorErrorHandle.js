@@ -1,4 +1,5 @@
 import { validationResult } from 'express-validator';
+import logger from '../logger.js';
 
 /**
  * @swagger
@@ -53,9 +54,9 @@ import { validationResult } from 'express-validator';
         try {
           error.msg = error.msg;
         } catch (e) {
-          console.log('validatorErrorHandler set language failed:');
-          console.log(error.msg);
-          console.log(e);
+          logger('validatorErrorHandler set language failed:');
+          logger(error.msg);
+          logger(e);
         }
       }
       error.msg = error.msg;

@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import authenticateToken from '../../utils/authenticate.js';
 
 import * as ActorController from './Actor.controller.js';
 import * as ActorValidator from './Actor.validator.js';
@@ -7,6 +8,7 @@ const router = new Router();
 
 router.route('/get-list')
   .get(
+    authenticateToken,
     ActorController.getListAllController
   );
 

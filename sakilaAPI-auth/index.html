@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Access Token Client</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <div class="line-dec"></div>
+                    <h1 id="header" style="text-align: center;">Login</h1>
+                </div>
+            </div>
+            <div class="container mt-4 ">
+                <div class="row mb-3">
+                    <div class="col-md-6 offset-md-3 shadow" style="background-color: wheat;
+                                                    margin-bottom: 20px;padding-bottom: 30px;">
+                        <form>
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="username">Username</label>
+                                <input type="text" id="username" class="form-control" />
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="password">Password</label>
+                                <input type="password" id="password" class="form-control" />
+                            </div>
+
+                            <!-- Submit button -->
+                            <div style="text-align:center">
+                                <button type="button" class="btn btn-primary btn-block mb-4" id="login-btn">Log in</button>
+                                <button hidden type="button" class="btn btn-primary btn-block mb-4" id="register-btn">Register</button>
+                            </div>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>Not a member? <a id="register-link" href="#" value="this is a value">Register</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create instance of axios
+        const instance = axios.create({
+            baseURL: 'api/',
+            timeout: 3000,
+            headers:{
+                'Content-Type': 'application/json'
+            }
+        });
+
+        instance.interceptors.request.use(async function (config) {
+            if (config.url.indexOf('/login') >= 0 || config.url.indexOf('/refreshToken') >= 0) {
+                return config;
+            }
+
+            const token = await instance.getLocalAccessToken()
+            config.headers['X-Token'] = token
+
+            console.log('Before request transmits to server :::', token)
+            return config;
+        }, err => {
+            return Promise.reject(err)
+        })
+
+        instance.setLocalAccessToken = async function (token) {
+            window.localStorage.setItem('accessToken', token)
+        }
+
+        instance.getLocalAccessToken = async function () {
+            return window.localStorage.getItem('accessToken')
+        }
+
+        instance.setLocalRefreshToken = async function (token) {
+            window.localStorage.setItem('refreshToken', token)
+        }
+
+        instance.getLocalRefreshToken = async function () {
+            return window.localStorage.getItem('refreshToken')
+        }
+
+        const btn_login = document.getElementById('login-btn')
+        if(btn_login){
+            btn_login.addEventListener('click', async function (){
+                const username = document.getElementById('username').value
+                const password = document.getElementById('password').value
+
+                const res = await login(username, password)
+
+                if(res.status === 'success'){
+                    await instance.setLocalAccessToken(res.elements.accessToken)
+                    await instance.setLocalRefreshToken(res.elements.refreshToken)
+
+                    const token = await instance.getLocalAccessToken()
+
+                    window.location.href = `http://localhost:3030/actors?token=${token}`;
+                }
+                else {
+                    alert(`Login status: ${res.status}` )
+                }
+            })
+        }
+
+        async function login(username, password){
+            return (await instance.post('/auth/login', {username: username, password: password})).data
+        }
+
+        async function register(username, password){
+            return (await instance.post('/auth/register', {username: username, password: password})).data
+        }
+
+        const btn_register = document.getElementById('register-btn')
+        if(btn_register){
+            btn_register.addEventListener('click', async function (){
+                const username = document.getElementById('username').value
+                const password = document.getElementById('password').value
+
+                const {message} = await register(username, password)
+                alert(message)
+            })
+        }
+
+        const register_link = document.getElementById('register-link')
+        if(register_link){
+            register_link.addEventListener('click', async function (){
+                if(document.getElementById('register-link').innerHTML.toString() === 'Register'){
+                    document.getElementById('login-btn').hidden = true
+                    document.getElementById('register-btn').hidden = false
+
+                    document.getElementById('register-link').innerHTML = "Login"
+                    document.getElementById('header').innerHTML = "Register"
+                }
+                else {
+                    document.getElementById('login-btn').hidden = false
+                    document.getElementById('register-btn').hidden = true
+
+                    document.getElementById('register-link').innerHTML = "Register"
+                    document.getElementById('header').innerHTML = "Login"
+                }
+            })
+        }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

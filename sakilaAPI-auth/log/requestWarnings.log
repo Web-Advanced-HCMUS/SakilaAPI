@@ -1,0 +1,2572 @@
+{
+  meta: {
+    req: {
+      url: '/api-docs',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        purpose: 'prefetch',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api-docs',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>ReferenceError: __dirname is not defined<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:14<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-winston\\index.js:429:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 72
+  },
+  level: 'error',
+  message: 'HTTP GET /api-docs',
+  timestamp: 'Nov-14-2022 23:46:42'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>ReferenceError: __dirname is not defined<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:14<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-winston\\index.js:429:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 9
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:46:44'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        'if-none-match': 'W/"c-GFOJvNW405yTVh1CTS4wP6NS06I"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: path must be absolute or specify root to res.sendFile<br> &nbsp; &nbsp;at ServerResponse.sendFile (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\response.js:441:11)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-winston\\index.js:429:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 34
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:47:54'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Cannot find module &#39;html&#39;<br>Require stack:<br>- C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\view.js<br>- C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\application.js<br>- C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\express.js<br> &nbsp; &nbsp;at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)<br> &nbsp; &nbsp;at Function.Module._load (node:internal/modules/cjs/loader:778:27)<br> &nbsp; &nbsp;at Module.require (node:internal/modules/cjs/loader:1005:19)<br> &nbsp; &nbsp;at require (node:internal/modules/cjs/helpers:102:18)<br> &nbsp; &nbsp;at new View (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\view.js:81:14)<br> &nbsp; &nbsp;at Function.render (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\application.js:587:12)<br> &nbsp; &nbsp;at ServerResponse.render (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\response.js:1039:7)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 33
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:49:31'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: No default engine was specified and no extension was provided.<br> &nbsp; &nbsp;at new View (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\view.js:61:11)<br> &nbsp; &nbsp;at Function.render (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\application.js:587:12)<br> &nbsp; &nbsp;at ServerResponse.render (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\response.js:1039:7)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 31
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:50:03'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>ReferenceError: __dirname is not defined<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:18<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-winston\\index.js:429:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 34
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:51:02'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: path must be absolute or specify root to res.sendFile<br> &nbsp; &nbsp;at ServerResponse.sendFile (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\response.js:441:11)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:328:13)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-winston\\index.js:429:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 40
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:53:11'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: path must be absolute or specify root to res.sendFile<br> &nbsp; &nbsp;at ServerResponse.sendFile (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\response.js:441:11)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:88:9<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:114:3)<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 32
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:53:32'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>ReferenceError: __dirname is not defined<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/app.js:89:28<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:114:3)<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:280:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 33
+  },
+  level: 'error',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-14-2022 23:54:54'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        'if-none-match': 'W/"c-GFOJvNW405yTVh1CTS4wP6NS06I"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 4
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-14-2022 23:59:27'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-15-2022 12:34:04'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: connect ECONNREFUSED 127.0.0.1:3306<br> &nbsp; &nbsp;at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 47
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-15-2022 13:39:45'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-16-2022 15:45:48'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FraWxhIiwiaWF0IjoxNjY4NTg4ODUwLCJleHAiOjE2Njg1ODg5MTB9.XKE-QXmStOMA0Fym6potEgk6fqDqJlBWim3Rlfp2Yqo',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: connect ECONNREFUSED 127.0.0.1:3306<br> &nbsp; &nbsp;at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-16-2022 15:54:18'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '64',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: '19127586@student.hcmus.edu.vn', password: '123333' }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/auth/login</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 17:30:20'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/register',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '29',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FraWxhIiwiaWF0IjoxNjY4NjAyODk1LCJleHAiOjE2Njg2MDI5MTV9.on2rA85oKjypITWn43teLpibMXpb-7TgFKgmXav6KNI',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/register',
+      query: {},
+      body: { username: '', password: '' }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/auth/register</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/auth/register',
+  timestamp: 'Nov-16-2022 20:05:39'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/register',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '38',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FraWxhIiwiaWF0IjoxNjY4NjAyODk1LCJleHAiOjE2Njg2MDI5MTV9.on2rA85oKjypITWn43teLpibMXpb-7TgFKgmXav6KNI',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/register',
+      query: {},
+      body: { username: 'client', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: userDB(...).findAll is not a function<br> &nbsp; &nbsp;at createUser (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:5:32)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:32:11<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\route.js:114:3)<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\express\\lib\\router\\index.js:346:12)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 77
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/register',
+  timestamp: 'Nov-16-2022 20:26:13'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/register',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FraWxhIiwiaWF0IjoxNjY4NjAyODk1LCJleHAiOjE2Njg2MDI5MTV9.on2rA85oKjypITWn43teLpibMXpb-7TgFKgmXav6KNI',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/register',
+      query: {},
+      body: { username: 'client2', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: insert into `user` (`role`, `user`) values (&#39;user&#39;, &#39;{\\&quot;username\\&quot;:\\&quot;client2\\&quot;,\\&quot;password\\&quot;:\\&quot;123\\&quot;}&#39;) - Unknown column &#39;user&#39; in &#39;field list&#39;<br> &nbsp; &nbsp;at Packet.asError (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)<br> &nbsp; &nbsp;at Query.execute (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)<br> &nbsp; &nbsp;at Connection.handlePacket (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:456:32)<br> &nbsp; &nbsp;at PacketParser.onPacket (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:85:12)<br> &nbsp; &nbsp;at PacketParser.executeStart (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)<br> &nbsp; &nbsp;at Socket.&lt;anonymous&gt; (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:92:25)<br> &nbsp; &nbsp;at Socket.emit (node:events:390:28)<br> &nbsp; &nbsp;at addChunk (node:internal/streams/readable:315:12)<br> &nbsp; &nbsp;at readableAddChunk (node:internal/streams/readable:289:9)<br> &nbsp; &nbsp;at Socket.Readable.push (node:internal/streams/readable:228:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 99
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/register',
+  timestamp: 'Nov-16-2022 20:48:21'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/register',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic2FraWxhIiwiaWF0IjoxNjY4NjAyODk1LCJleHAiOjE2Njg2MDI5MTV9.on2rA85oKjypITWn43teLpibMXpb-7TgFKgmXav6KNI',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/register',
+      query: {},
+      body: { username: 'client3', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: select * from `user` where `user` = &#39;client3&#39; - Unknown column &#39;user&#39; in &#39;where clause&#39;<br> &nbsp; &nbsp;at Packet.asError (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)<br> &nbsp; &nbsp;at Query.execute (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)<br> &nbsp; &nbsp;at Connection.handlePacket (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:456:32)<br> &nbsp; &nbsp;at PacketParser.onPacket (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:85:12)<br> &nbsp; &nbsp;at PacketParser.executeStart (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)<br> &nbsp; &nbsp;at Socket.&lt;anonymous&gt; (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\mysql2\\lib\\connection.js:92:25)<br> &nbsp; &nbsp;at Socket.emit (node:events:390:28)<br> &nbsp; &nbsp;at addChunk (node:internal/streams/readable:315:12)<br> &nbsp; &nbsp;at readableAddChunk (node:internal/streams/readable:289:9)<br> &nbsp; &nbsp;at Socket.Readable.push (node:internal/streams/readable:228:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 91
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/register',
+  timestamp: 'Nov-16-2022 20:50:23'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `0` = ?, `refreshToken` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:18:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 74
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:11:03'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `username` = ?, `password` = ?, `role` = ?, `refreshToken` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:18:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 70
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:11:24'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `u` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:20:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 64
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:13:20'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `username` = ?, `password` = ?, `role` = ?, `refreshToken` = ?, `refeshToken` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:20:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 69
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:13:37'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `username` = ?, `password` = ?, `role` = ?, `refreshToken` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:20:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 67
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:13:54'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client4', password: '123' }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [username] query: update `user` set `refreshToken` = ? where `username` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async saveRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:18:13</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 109
+  },
+  level: 'error',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-16-2022 21:16:29'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"c7-edB+5i54mnaJQZtc9QBh6B7PKK8"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:37:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 57
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken',
+  timestamp: 'Nov-16-2022 23:14:17'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:37:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 73
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken',
+  timestamp: 'Nov-16-2022 23:15:30'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:37:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 53
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken',
+  timestamp: 'Nov-16-2022 23:15:44'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken',
+      query: {}
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:38:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 45
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken',
+  timestamp: 'Nov-16-2022 23:16:11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:38:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 7
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:21:34'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:38:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 54
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:22:52'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:38:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 39
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:23:04'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:38:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 36
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:23:26'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:37:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 38
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:23:43'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+      query: {
+        refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [refreshToken] query: select * from `user` where `refreshToken` = ?<br> &nbsp; &nbsp;at QueryCompiler_MySQL.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querycompiler.js:110:13)<br> &nbsp; &nbsp;at Builder.toSQL (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\query\\querybuilder.js:83:44)<br> &nbsp; &nbsp;at ensureConnectionCallback (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\internal\\ensure-connection-callback.js:4:30)<br> &nbsp; &nbsp;at Runner.ensureConnection (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:300:20)<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)<br> &nbsp; &nbsp;at async Runner.run (C:\\Users\\minht\\Desktop\\SakilaAPI\\node_modules\\knex\\lib\\execution\\runner.js:30:19)<br> &nbsp; &nbsp;at async findRefreshToken (file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.service.js:12:12)<br> &nbsp; &nbsp;at async file:///C:/Users/minht/Desktop/SakilaAPI/components/auth/auth.route.js:39:18</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 60
+  },
+  level: 'error',
+  message: 'HTTP GET /api/auth/refreshToken?refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NCIsImlhdCI6MTY2ODYxNTYwN30.YXwOb79RXYidsLgAwPBI7H-565vN6rcU3htq3wB0Tlg',
+  timestamp: 'Nov-16-2022 23:26:38'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-17-2022 10:11:58'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-18-2022 21:12:58'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4MTU2NCwiZXhwIjoxNjY4NzgxNTg0fQ.4zs3cWkFpwge_8ywI8ccZNt3p4vk7ku43z_WZQhIrck',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {}
+    },
+    res: {
+      statusCode: 400,
+      body: { status: 'error', message: 'bad request !' }
+    },
+    responseTime: 45
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 21:26:04'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4MTY1NiwiZXhwIjoxNjY4NzgxNjc2fQ.8erTu2FZrsLdaaFplOaqf6umbxIaxksV3KUiVek7dGU',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {}
+    },
+    res: {
+      statusCode: 400,
+      body: { status: 'error', message: 'bad request !' }
+    },
+    responseTime: 23
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 21:27:36'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4NzE3MiwiZXhwIjoxNjY4Nzg3MTkyfQ.l2eYrtqRO6e0gKTSRSwDsEVRugxQA2DNTfZNRzGwnk0',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668787172246,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'v1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 16
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 22:59:32'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4NzMxOCwiZXhwIjoxNjY4Nzg3MzM4fQ.1EUchu0lOeciFyTWxPX_bO3nNAQpVvYQr4qdUagdAUE',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668787318105,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'v1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 17361
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 23:02:15'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4NzM0MiwiZXhwIjoxNjY4Nzg3MzYyfQ.hiSXTydDEOn-tieRnYcCYiuFsRDPYgTTSIxQrOtzDlo',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668787342539,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'v1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 11798
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 23:02:34'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4NzM0MiwiZXhwIjoxNjY4Nzg3MzYyfQ.hiSXTydDEOn-tieRnYcCYiuFsRDPYgTTSIxQrOtzDlo',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668787356763,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'v1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 9458
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-18-2022 23:02:46'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTEwMSwiZXhwIjoxNjY4Nzg5MTIxfQ.mw0AByqYRv46-Mg1GpDQo8HJPooTUI-_OnLoslwXTnw',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789111176,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'Phan', last_name: 'Toan' }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:31:51'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'content-type': 'text/plain;charset=UTF-8',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTE5MCwiZXhwIjoxNjY4Nzg5MjEwfQ.9yNdx7rLvrew3iua6Q506DY8b0GiPXZaIXBT6zdO7ys',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789190694,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:33:10'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'content-type': 'text/plain;charset=UTF-8',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTIyNywiZXhwIjoxNjY4Nzg5MjQ3fQ.R1xp8oDdcwUnFszz_beSA0x9irntPKqiauyCw_y-gzU',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789227885,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 4
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:33:47'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'content-type': 'text/plain;charset=UTF-8',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTI1NiwiZXhwIjoxNjY4Nzg5Mjc2fQ.znxMhkzilBNHVD8iaA9CCu4LY8wgnPnjTLYmzhsYveo',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789256667,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 7
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:34:16'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'content-type': 'text/plain;charset=UTF-8',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTI3NywiZXhwIjoxNjY4Nzg5Mjk3fQ.-SUtku_1CH6BxCnOhWqmFVgGMpOdFG1C3FB1C0W4ZUU',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789277681,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 4
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:34:37'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/10',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '40',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'content-type': 'text/plain;charset=UTF-8',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODc4OTMwMSwiZXhwIjoxNjY4Nzg5MzIxfQ.uN0-5yKEaTvs5LEBnpOAIr8Jswnhod3oaDLeRKDUD90',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/10',
+      query: {
+        time: 1668789301218,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /api/actors/10</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/actors/10',
+  timestamp: 'Nov-18-2022 23:35:01'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /favicon.ico</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-19-2022 13:24:21'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODgzOTEyOSwiZXhwIjoxNjY4ODM5MTQ5fQ.OzfzklXTPc1-rXFUrTe1qAkY1w-UhevLAptPU7PSMK0',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668839140539,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\route.js:114:3)<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:280:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 6
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-19-2022 13:25:40'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        '0': 'function(e,t){if(e=ae(e)){var n=fe(this,e);if(n){var r=this[n];if(!t)return r;if(!0===t)return function(e){for(var t,n=Object.create(null),r=/([^\\s,;=]+)\\s*(?:=\\s*([^,;]+))?/g;t=r.exec(e);)n[t[1]]=t[2];return n}(r);if(P.isFunction(t))return t.call(this,r,n);if(P.isRegExp(t))return t.exec(r);throw new TypeError("parser must be boolean|regexp|function")}}}',
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODgzOTE1NSwiZXhwIjoxNjY4ODM5MTc1fQ.dcWKRld7HXS75ot54-RyFcSdIX2hqpT27HPGIujquKQ',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: '*/*',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"24-u8Hf+k6Wy8ADUpUKF39W93JzxzA"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1668839155805,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 500,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>TypeError: Cannot read properties of undefined (reading &#39;data&#39;)<br> &nbsp; &nbsp;at file:///C:/Users/minht/Desktop/sakilaAPI-auth/components/actor/actor.route.js:109:38<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\route.js:114:3)<br> &nbsp; &nbsp;at newFn (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express-async-errors\\index.js:16:20)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\layer.js:95:5)<br> &nbsp; &nbsp;at C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:284:15<br> &nbsp; &nbsp;at Function.process_params (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\\Users\\minht\\Desktop\\sakilaAPI-auth\\node_modules\\express\\lib\\router\\index.js:280:10)</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 8
+  },
+  level: 'error',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-19-2022 13:25:55'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actorsj',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODgzOTE1NSwiZXhwIjoxNjY4ODM5MTc1fQ.dcWKRld7HXS75ot54-RyFcSdIX2hqpT27HPGIujquKQ',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actorsj',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /api/actorsj</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 5
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/actorsj',
+  timestamp: 'Nov-19-2022 13:27:38'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actorsj',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2ODgzOTE1NSwiZXhwIjoxNjY4ODM5MTc1fQ.dcWKRld7HXS75ot54-RyFcSdIX2hqpT27HPGIujquKQ',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actorsj',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /api/actorsj</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 5
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/actorsj',
+  timestamp: 'Nov-19-2022 13:32:46'
+}
+{
+  meta: {
+    req: {
+      url: '/socket.io/socket.io.js',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/socket.io/socket.io.js',
+      query: {}
+    },
+    res: {
+      statusCode: 404,
+      body: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot GET /socket.io/socket.io.js</pre>\n' +
+        '</body>\n' +
+        '</html>\n'
+    },
+    responseTime: 5
+  },
+  level: 'warn',
+  message: 'HTTP GET /socket.io/socket.io.js',
+  timestamp: 'Nov-24-2022 10:46:06'
+}

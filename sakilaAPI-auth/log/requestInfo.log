@@ -86507,3 +86507,2876 @@
   message: 'HTTP POST /api/actors/',
   timestamp: 'Nov-24-2022 12:21:47'
 }
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"1c68-184a8012059"',
+        'if-modified-since': 'Thu, 24 Nov 2022 04:59:16 GMT'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-24-2022 13:56:38'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 13:56:38'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"1c68-184a8012059"',
+        'if-modified-since': 'Thu, 24 Nov 2022 04:59:16 GMT'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 17
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-24-2022 14:12:07'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 14:12:07'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client5', password: '123' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        status: 'success',
+        elements: {
+          accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+          refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOH0.m3o_PZvnHcd5sLuU0TFoWaS9Wooju61tFbAxpNQpEkc'
+        }
+      }
+    },
+    responseTime: 288
+  },
+  level: 'info',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-24-2022 14:12:18'
+}
+{
+  meta: {
+    req: {
+      url: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      query: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        time: 1669273938408,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: { statusCode: 200 },
+    responseTime: 11
+  },
+  level: 'info',
+  message: 'HTTP GET /actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+  timestamp: 'Nov-24-2022 14:12:18'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 14:12:18'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1669274210975,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: [
+        {
+          actor_id: 1,
+          first_name: 'PENELOPE',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 2,
+          first_name: 'NICK',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 3,
+          first_name: 'ED',
+          last_name: 'CHASE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 4,
+          first_name: 'JENNIFER',
+          last_name: 'DAVIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 5,
+          first_name: 'JOHNNY',
+          last_name: 'LOLLOBRIGIDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 6,
+          first_name: 'BETTE',
+          last_name: 'NICHOLSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 7,
+          first_name: 'GRACE',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 8,
+          first_name: 'MATTHEW',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 9,
+          first_name: 'JOE',
+          last_name: 'SWANK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 10,
+          first_name: 'CHRISTIAN',
+          last_name: 'GABLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 11,
+          first_name: 'ZERO',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 12,
+          first_name: 'KARL',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 13,
+          first_name: 'UMA',
+          last_name: 'WOOD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 14,
+          first_name: 'VIVIEN',
+          last_name: 'BERGEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 15,
+          first_name: 'CUBA',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 16,
+          first_name: 'FRED',
+          last_name: 'COSTNER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 17,
+          first_name: 'HELEN',
+          last_name: 'VOIGHT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 18,
+          first_name: 'DAN',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 19,
+          first_name: 'BOB',
+          last_name: 'FAWCETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 20,
+          first_name: 'LUCILLE',
+          last_name: 'TRACY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 21,
+          first_name: 'KIRSTEN',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 22,
+          first_name: 'ELVIS',
+          last_name: 'MARX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 23,
+          first_name: 'SANDRA',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 24,
+          first_name: 'CAMERON',
+          last_name: 'STREEP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 25,
+          first_name: 'KEVIN',
+          last_name: 'BLOOM',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 26,
+          first_name: 'RIP',
+          last_name: 'CRAWFORD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 27,
+          first_name: 'JULIA',
+          last_name: 'MCQUEEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 28,
+          first_name: 'WOODY',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 29,
+          first_name: 'ALEC',
+          last_name: 'WAYNE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 30,
+          first_name: 'SANDRA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 31,
+          first_name: 'SISSY',
+          last_name: 'SOBIESKI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 32,
+          first_name: 'TIM',
+          last_name: 'HACKMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 33,
+          first_name: 'MILLA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 34,
+          first_name: 'AUDREY',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 35,
+          first_name: 'JUDY',
+          last_name: 'DEAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 36,
+          first_name: 'BURT',
+          last_name: 'DUKAKIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 37,
+          first_name: 'VAL',
+          last_name: 'BOLGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 38,
+          first_name: 'TOM',
+          last_name: 'MCKELLEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 39,
+          first_name: 'GOLDIE',
+          last_name: 'BRODY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 40,
+          first_name: 'JOHNNY',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 41,
+          first_name: 'JODIE',
+          last_name: 'DEGENERES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 42,
+          first_name: 'TOM',
+          last_name: 'MIRANDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 43,
+          first_name: 'KIRK',
+          last_name: 'JOVOVICH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 44,
+          first_name: 'NICK',
+          last_name: 'STALLONE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 45,
+          first_name: 'REESE',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 46,
+          first_name: 'PARKER',
+          last_name: 'GOLDBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 47,
+          first_name: 'JULIA',
+          last_name: 'BARRYMORE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 48,
+          first_name: 'FRANCES',
+          last_name: 'DAY-LEWIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 49,
+          first_name: 'ANNE',
+          last_name: 'CRONYN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 50,
+          first_name: 'NATALIE',
+          last_name: 'HOPKINS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 51,
+          first_name: 'GARY',
+          last_name: 'PHOENIX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 52,
+          first_name: 'CARMEN',
+          last_name: 'HUNT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 53,
+          first_name: 'MENA',
+          last_name: 'TEMPLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 54,
+          first_name: 'PENELOPE',
+          last_name: 'PINKETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 55,
+          first_name: 'FAY',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 56,
+          first_name: 'DAN',
+          last_name: 'HARRIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 57,
+          first_name: 'JUDE',
+          last_name: 'CRUISE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 58,
+          first_name: 'CHRISTIAN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 59,
+          first_name: 'DUSTIN',
+          last_name: 'TAUTOU',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 60,
+          first_name: 'HENRY',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 61,
+          first_name: 'CHRISTIAN',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 62,
+          first_name: 'JAYNE',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 63,
+          first_name: 'CAMERON',
+          last_name: 'WRAY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 64,
+          first_name: 'RAY',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 65,
+          first_name: 'ANGELA',
+          last_name: 'HUDSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 66,
+          first_name: 'MARY',
+          last_name: 'TANDY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 67,
+          first_name: 'JESSICA',
+          last_name: 'BAILEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 68,
+          first_name: 'RIP',
+          last_name: 'WINSLET',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 69,
+          first_name: 'KENNETH',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 70,
+          first_name: 'MICHELLE',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 71,
+          first_name: 'ADAM',
+          last_name: 'GRANT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 72,
+          first_name: 'SEAN',
+          last_name: 'WILLIAMS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 73,
+          first_name: 'GARY',
+          last_name: 'PENN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 74,
+          first_name: 'MILLA',
+          last_name: 'KEITEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 75,
+          first_name: 'BURT',
+          last_name: 'POSEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 76,
+          first_name: 'ANGELINA',
+          last_name: 'ASTAIRE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 77,
+          first_name: 'CARY',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 78,
+          first_name: 'GROUCHO',
+          last_name: 'SINATRA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 79,
+          first_name: 'MAE',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 80,
+          first_name: 'RALPH',
+          last_name: 'CRUZ',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 81,
+          first_name: 'SCARLETT',
+          last_name: 'DAMON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 82,
+          first_name: 'WOODY',
+          last_name: 'JOLIE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 83,
+          first_name: 'BEN',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 84,
+          first_name: 'JAMES',
+          last_name: 'PITT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 85,
+          first_name: 'MINNIE',
+          last_name: 'ZELLWEGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 86,
+          first_name: 'GREG',
+          last_name: 'CHAPLIN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 87,
+          first_name: 'SPENCER',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 88,
+          first_name: 'KENNETH',
+          last_name: 'PESCI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 89,
+          first_name: 'CHARLIZE',
+          last_name: 'DENCH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 90,
+          first_name: 'SEAN',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 91,
+          first_name: 'CHRISTOPHER',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 92,
+          first_name: 'KIRSTEN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 93,
+          first_name: 'ELLEN',
+          last_name: 'PRESLEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 94,
+          first_name: 'KENNETH',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 95,
+          first_name: 'DARYL',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 96,
+          first_name: 'GENE',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 97,
+          first_name: 'MEG',
+          last_name: 'HAWKE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 98,
+          first_name: 'CHRIS',
+          last_name: 'BRIDGES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 99,
+          first_name: 'JIM',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 100,
+          first_name: 'SPENCER',
+          last_name: 'DEPP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        ... 129 more items
+      ]
+    },
+    responseTime: 132
+  },
+  level: 'info',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-24-2022 14:16:51'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '46',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669274222327,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'Chris', last_name: 'Hemsworth' }
+    },
+    res: {
+      statusCode: 200,
+      body: [
+        {
+          actor_id: 231,
+          first_name: 'Chris',
+          last_name: 'Hemsworth',
+          last_update: '2022-11-24T07:17:02.000Z'
+        }
+      ]
+    },
+    responseTime: 86
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 14:17:02'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: 'Nov-24-2022 14:17:14'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 200, body: { status: 404 } },
+    responseTime: 4
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 14:17:15'
+}
+{
+  meta: {
+    req: {
+      url: '/api/auth/login',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '39',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/auth/login',
+      query: {},
+      body: { username: 'client5', password: '123' }
+    },
+    res: {
+      statusCode: 200,
+      body: {
+        status: 'success',
+        elements: {
+          accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+          refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1M30.cAN03pSBDhlSK25p1G2gn0PKYtfABInJ4gllfoDJFmw'
+        }
+      }
+    },
+    responseTime: 239
+  },
+  level: 'info',
+  message: 'HTTP POST /api/auth/login',
+  timestamp: 'Nov-24-2022 14:17:33'
+}
+{
+  meta: {
+    req: {
+      url: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+      query: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+        time: 1669274253934,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: { statusCode: 200 },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'HTTP GET /actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+  timestamp: 'Nov-24-2022 14:17:33'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 14:17:34'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3NDI1MywiZXhwIjoxNjY5Mjc3ODUzfQ.0u_erTjhaR-Rym7AynmgJ-Y8UYRskHlKxhuDnVUC9UI',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1669274264686,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: [
+        {
+          actor_id: 1,
+          first_name: 'PENELOPE',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 2,
+          first_name: 'NICK',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 3,
+          first_name: 'ED',
+          last_name: 'CHASE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 4,
+          first_name: 'JENNIFER',
+          last_name: 'DAVIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 5,
+          first_name: 'JOHNNY',
+          last_name: 'LOLLOBRIGIDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 6,
+          first_name: 'BETTE',
+          last_name: 'NICHOLSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 7,
+          first_name: 'GRACE',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 8,
+          first_name: 'MATTHEW',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 9,
+          first_name: 'JOE',
+          last_name: 'SWANK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 10,
+          first_name: 'CHRISTIAN',
+          last_name: 'GABLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 11,
+          first_name: 'ZERO',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 12,
+          first_name: 'KARL',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 13,
+          first_name: 'UMA',
+          last_name: 'WOOD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 14,
+          first_name: 'VIVIEN',
+          last_name: 'BERGEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 15,
+          first_name: 'CUBA',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 16,
+          first_name: 'FRED',
+          last_name: 'COSTNER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 17,
+          first_name: 'HELEN',
+          last_name: 'VOIGHT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 18,
+          first_name: 'DAN',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 19,
+          first_name: 'BOB',
+          last_name: 'FAWCETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 20,
+          first_name: 'LUCILLE',
+          last_name: 'TRACY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 21,
+          first_name: 'KIRSTEN',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 22,
+          first_name: 'ELVIS',
+          last_name: 'MARX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 23,
+          first_name: 'SANDRA',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 24,
+          first_name: 'CAMERON',
+          last_name: 'STREEP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 25,
+          first_name: 'KEVIN',
+          last_name: 'BLOOM',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 26,
+          first_name: 'RIP',
+          last_name: 'CRAWFORD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 27,
+          first_name: 'JULIA',
+          last_name: 'MCQUEEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 28,
+          first_name: 'WOODY',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 29,
+          first_name: 'ALEC',
+          last_name: 'WAYNE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 30,
+          first_name: 'SANDRA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 31,
+          first_name: 'SISSY',
+          last_name: 'SOBIESKI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 32,
+          first_name: 'TIM',
+          last_name: 'HACKMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 33,
+          first_name: 'MILLA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 34,
+          first_name: 'AUDREY',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 35,
+          first_name: 'JUDY',
+          last_name: 'DEAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 36,
+          first_name: 'BURT',
+          last_name: 'DUKAKIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 37,
+          first_name: 'VAL',
+          last_name: 'BOLGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 38,
+          first_name: 'TOM',
+          last_name: 'MCKELLEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 39,
+          first_name: 'GOLDIE',
+          last_name: 'BRODY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 40,
+          first_name: 'JOHNNY',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 41,
+          first_name: 'JODIE',
+          last_name: 'DEGENERES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 42,
+          first_name: 'TOM',
+          last_name: 'MIRANDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 43,
+          first_name: 'KIRK',
+          last_name: 'JOVOVICH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 44,
+          first_name: 'NICK',
+          last_name: 'STALLONE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 45,
+          first_name: 'REESE',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 46,
+          first_name: 'PARKER',
+          last_name: 'GOLDBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 47,
+          first_name: 'JULIA',
+          last_name: 'BARRYMORE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 48,
+          first_name: 'FRANCES',
+          last_name: 'DAY-LEWIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 49,
+          first_name: 'ANNE',
+          last_name: 'CRONYN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 50,
+          first_name: 'NATALIE',
+          last_name: 'HOPKINS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 51,
+          first_name: 'GARY',
+          last_name: 'PHOENIX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 52,
+          first_name: 'CARMEN',
+          last_name: 'HUNT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 53,
+          first_name: 'MENA',
+          last_name: 'TEMPLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 54,
+          first_name: 'PENELOPE',
+          last_name: 'PINKETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 55,
+          first_name: 'FAY',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 56,
+          first_name: 'DAN',
+          last_name: 'HARRIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 57,
+          first_name: 'JUDE',
+          last_name: 'CRUISE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 58,
+          first_name: 'CHRISTIAN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 59,
+          first_name: 'DUSTIN',
+          last_name: 'TAUTOU',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 60,
+          first_name: 'HENRY',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 61,
+          first_name: 'CHRISTIAN',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 62,
+          first_name: 'JAYNE',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 63,
+          first_name: 'CAMERON',
+          last_name: 'WRAY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 64,
+          first_name: 'RAY',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 65,
+          first_name: 'ANGELA',
+          last_name: 'HUDSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 66,
+          first_name: 'MARY',
+          last_name: 'TANDY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 67,
+          first_name: 'JESSICA',
+          last_name: 'BAILEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 68,
+          first_name: 'RIP',
+          last_name: 'WINSLET',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 69,
+          first_name: 'KENNETH',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 70,
+          first_name: 'MICHELLE',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 71,
+          first_name: 'ADAM',
+          last_name: 'GRANT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 72,
+          first_name: 'SEAN',
+          last_name: 'WILLIAMS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 73,
+          first_name: 'GARY',
+          last_name: 'PENN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 74,
+          first_name: 'MILLA',
+          last_name: 'KEITEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 75,
+          first_name: 'BURT',
+          last_name: 'POSEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 76,
+          first_name: 'ANGELINA',
+          last_name: 'ASTAIRE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 77,
+          first_name: 'CARY',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 78,
+          first_name: 'GROUCHO',
+          last_name: 'SINATRA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 79,
+          first_name: 'MAE',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 80,
+          first_name: 'RALPH',
+          last_name: 'CRUZ',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 81,
+          first_name: 'SCARLETT',
+          last_name: 'DAMON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 82,
+          first_name: 'WOODY',
+          last_name: 'JOLIE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 83,
+          first_name: 'BEN',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 84,
+          first_name: 'JAMES',
+          last_name: 'PITT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 85,
+          first_name: 'MINNIE',
+          last_name: 'ZELLWEGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 86,
+          first_name: 'GREG',
+          last_name: 'CHAPLIN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 87,
+          first_name: 'SPENCER',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 88,
+          first_name: 'KENNETH',
+          last_name: 'PESCI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 89,
+          first_name: 'CHARLIZE',
+          last_name: 'DENCH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 90,
+          first_name: 'SEAN',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 91,
+          first_name: 'CHRISTOPHER',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 92,
+          first_name: 'KIRSTEN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 93,
+          first_name: 'ELLEN',
+          last_name: 'PRESLEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 94,
+          first_name: 'KENNETH',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 95,
+          first_name: 'DARYL',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 96,
+          first_name: 'GENE',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 97,
+          first_name: 'MEG',
+          last_name: 'HAWKE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 98,
+          first_name: 'CHRIS',
+          last_name: 'BRIDGES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 99,
+          first_name: 'JIM',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 100,
+          first_name: 'SPENCER',
+          last_name: 'DEPP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        ... 130 more items
+      ]
+    },
+    responseTime: 59
+  },
+  level: 'info',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-24-2022 14:17:44'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '46',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669274267405,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'Chris', last_name: 'Hemsworth' }
+    },
+    res: {
+      statusCode: 200,
+      body: [
+        {
+          actor_id: 232,
+          first_name: 'Chris',
+          last_name: 'Hemsworth',
+          last_update: '2022-11-24T07:17:47.000Z'
+        }
+      ]
+    },
+    responseTime: 44
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 14:17:47'
+}
+{
+  meta: {
+    req: {
+      url: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"210d-184a8142999"',
+        'if-modified-since': 'Thu, 24 Nov 2022 05:20:04 GMT'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      query: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        time: 1669275572925,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: { statusCode: 304 },
+    responseTime: 20
+  },
+  level: 'info',
+  message: 'HTTP GET /actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+  timestamp: 'Nov-24-2022 14:39:32'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 6
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 14:39:33'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277077433,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'h', last_name: '' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'last_name does not empty' }
+    },
+    responseTime: 170
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:04:37'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277101020,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'h', last_name: '' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'last_name does not empty' }
+    },
+    responseTime: 23
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:05:01'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"5980-CUSaeiZ8I150moVBd+UemWHIUbo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors',
+      query: {
+        time: 1669277122924,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: {
+      statusCode: 200,
+      body: [
+        {
+          actor_id: 1,
+          first_name: 'PENELOPE',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 2,
+          first_name: 'NICK',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 3,
+          first_name: 'ED',
+          last_name: 'CHASE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 4,
+          first_name: 'JENNIFER',
+          last_name: 'DAVIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 5,
+          first_name: 'JOHNNY',
+          last_name: 'LOLLOBRIGIDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 6,
+          first_name: 'BETTE',
+          last_name: 'NICHOLSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 7,
+          first_name: 'GRACE',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 8,
+          first_name: 'MATTHEW',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 9,
+          first_name: 'JOE',
+          last_name: 'SWANK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 10,
+          first_name: 'CHRISTIAN',
+          last_name: 'GABLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 11,
+          first_name: 'ZERO',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 12,
+          first_name: 'KARL',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 13,
+          first_name: 'UMA',
+          last_name: 'WOOD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 14,
+          first_name: 'VIVIEN',
+          last_name: 'BERGEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 15,
+          first_name: 'CUBA',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 16,
+          first_name: 'FRED',
+          last_name: 'COSTNER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 17,
+          first_name: 'HELEN',
+          last_name: 'VOIGHT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 18,
+          first_name: 'DAN',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 19,
+          first_name: 'BOB',
+          last_name: 'FAWCETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 20,
+          first_name: 'LUCILLE',
+          last_name: 'TRACY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 21,
+          first_name: 'KIRSTEN',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 22,
+          first_name: 'ELVIS',
+          last_name: 'MARX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 23,
+          first_name: 'SANDRA',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 24,
+          first_name: 'CAMERON',
+          last_name: 'STREEP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 25,
+          first_name: 'KEVIN',
+          last_name: 'BLOOM',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 26,
+          first_name: 'RIP',
+          last_name: 'CRAWFORD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 27,
+          first_name: 'JULIA',
+          last_name: 'MCQUEEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 28,
+          first_name: 'WOODY',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 29,
+          first_name: 'ALEC',
+          last_name: 'WAYNE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 30,
+          first_name: 'SANDRA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 31,
+          first_name: 'SISSY',
+          last_name: 'SOBIESKI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 32,
+          first_name: 'TIM',
+          last_name: 'HACKMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 33,
+          first_name: 'MILLA',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 34,
+          first_name: 'AUDREY',
+          last_name: 'OLIVIER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 35,
+          first_name: 'JUDY',
+          last_name: 'DEAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 36,
+          first_name: 'BURT',
+          last_name: 'DUKAKIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 37,
+          first_name: 'VAL',
+          last_name: 'BOLGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 38,
+          first_name: 'TOM',
+          last_name: 'MCKELLEN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 39,
+          first_name: 'GOLDIE',
+          last_name: 'BRODY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 40,
+          first_name: 'JOHNNY',
+          last_name: 'CAGE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 41,
+          first_name: 'JODIE',
+          last_name: 'DEGENERES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 42,
+          first_name: 'TOM',
+          last_name: 'MIRANDA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 43,
+          first_name: 'KIRK',
+          last_name: 'JOVOVICH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 44,
+          first_name: 'NICK',
+          last_name: 'STALLONE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 45,
+          first_name: 'REESE',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 46,
+          first_name: 'PARKER',
+          last_name: 'GOLDBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 47,
+          first_name: 'JULIA',
+          last_name: 'BARRYMORE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 48,
+          first_name: 'FRANCES',
+          last_name: 'DAY-LEWIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 49,
+          first_name: 'ANNE',
+          last_name: 'CRONYN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 50,
+          first_name: 'NATALIE',
+          last_name: 'HOPKINS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 51,
+          first_name: 'GARY',
+          last_name: 'PHOENIX',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 52,
+          first_name: 'CARMEN',
+          last_name: 'HUNT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 53,
+          first_name: 'MENA',
+          last_name: 'TEMPLE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 54,
+          first_name: 'PENELOPE',
+          last_name: 'PINKETT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 55,
+          first_name: 'FAY',
+          last_name: 'KILMER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 56,
+          first_name: 'DAN',
+          last_name: 'HARRIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 57,
+          first_name: 'JUDE',
+          last_name: 'CRUISE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 58,
+          first_name: 'CHRISTIAN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 59,
+          first_name: 'DUSTIN',
+          last_name: 'TAUTOU',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 60,
+          first_name: 'HENRY',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 61,
+          first_name: 'CHRISTIAN',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 62,
+          first_name: 'JAYNE',
+          last_name: 'NEESON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 63,
+          first_name: 'CAMERON',
+          last_name: 'WRAY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 64,
+          first_name: 'RAY',
+          last_name: 'JOHANSSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 65,
+          first_name: 'ANGELA',
+          last_name: 'HUDSON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 66,
+          first_name: 'MARY',
+          last_name: 'TANDY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 67,
+          first_name: 'JESSICA',
+          last_name: 'BAILEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 68,
+          first_name: 'RIP',
+          last_name: 'WINSLET',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 69,
+          first_name: 'KENNETH',
+          last_name: 'PALTROW',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 70,
+          first_name: 'MICHELLE',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 71,
+          first_name: 'ADAM',
+          last_name: 'GRANT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 72,
+          first_name: 'SEAN',
+          last_name: 'WILLIAMS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 73,
+          first_name: 'GARY',
+          last_name: 'PENN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 74,
+          first_name: 'MILLA',
+          last_name: 'KEITEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 75,
+          first_name: 'BURT',
+          last_name: 'POSEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 76,
+          first_name: 'ANGELINA',
+          last_name: 'ASTAIRE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 77,
+          first_name: 'CARY',
+          last_name: 'MCCONAUGHEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 78,
+          first_name: 'GROUCHO',
+          last_name: 'SINATRA',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 79,
+          first_name: 'MAE',
+          last_name: 'HOFFMAN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 80,
+          first_name: 'RALPH',
+          last_name: 'CRUZ',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 81,
+          first_name: 'SCARLETT',
+          last_name: 'DAMON',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 82,
+          first_name: 'WOODY',
+          last_name: 'JOLIE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 83,
+          first_name: 'BEN',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 84,
+          first_name: 'JAMES',
+          last_name: 'PITT',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 85,
+          first_name: 'MINNIE',
+          last_name: 'ZELLWEGER',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 86,
+          first_name: 'GREG',
+          last_name: 'CHAPLIN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 87,
+          first_name: 'SPENCER',
+          last_name: 'PECK',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 88,
+          first_name: 'KENNETH',
+          last_name: 'PESCI',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 89,
+          first_name: 'CHARLIZE',
+          last_name: 'DENCH',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 90,
+          first_name: 'SEAN',
+          last_name: 'GUINESS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 91,
+          first_name: 'CHRISTOPHER',
+          last_name: 'BERRY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 92,
+          first_name: 'KIRSTEN',
+          last_name: 'AKROYD',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 93,
+          first_name: 'ELLEN',
+          last_name: 'PRESLEY',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 94,
+          first_name: 'KENNETH',
+          last_name: 'TORN',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 95,
+          first_name: 'DARYL',
+          last_name: 'WAHLBERG',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 96,
+          first_name: 'GENE',
+          last_name: 'WILLIS',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 97,
+          first_name: 'MEG',
+          last_name: 'HAWKE',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 98,
+          first_name: 'CHRIS',
+          last_name: 'BRIDGES',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 99,
+          first_name: 'JIM',
+          last_name: 'MOSTEL',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        {
+          actor_id: 100,
+          first_name: 'SPENCER',
+          last_name: 'DEPP',
+          last_update: '2006-02-14T21:34:33.000Z'
+        },
+        ... 131 more items
+      ]
+    },
+    responseTime: 73
+  },
+  level: 'info',
+  message: 'HTTP GET /api/actors',
+  timestamp: 'Nov-24-2022 15:05:22'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277124472,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'h', last_name: '' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'last_name does not empty' }
+    },
+    responseTime: 32
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:05:24'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277273258,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'h', last_name: '' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'last_name does not empty' }
+    },
+    responseTime: 58
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:07:53'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277326266,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: 'h', last_name: '' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'last_name does not empty' }
+    },
+    responseTime: 32
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:08:46'
+}
+{
+  meta: {
+    req: {
+      url: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        referer: 'http://localhost:3030/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"210d-184a8142999"',
+        'if-modified-since': 'Thu, 24 Nov 2022 05:20:04 GMT'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+      query: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        time: 1669277351151,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      }
+    },
+    res: { statusCode: 200 },
+    responseTime: 10
+  },
+  level: 'info',
+  message: 'HTTP GET /actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+  timestamp: 'Nov-24-2022 15:09:11'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f',
+        'if-none-match': 'W/"e-upYEWCL+q6R/++2nWHz5b76hBgo"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: 'Nov-24-2022 15:09:11'
+}
+{
+  meta: {
+    req: {
+      url: '/api/actors/',
+      headers: {
+        host: 'localhost:3030',
+        connection: 'keep-alive',
+        'content-length': '33',
+        'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+        accept: 'application/json, text/plain, */*',
+        'content-type': 'application/json',
+        'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:3030',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3030/actors?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xpZW50NSIsImlhdCI6MTY2OTI3MzkzOCwiZXhwIjoxNjY5Mjc3NTM4fQ.et-OJOOR9E6hiSrG9Vc75V8W4r86X275kU5tLxAyPv4',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+        cookie: 'Webstorm-1a723767=42a3dd0f-c4db-4f10-88af-4cf354203e2f'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/actors/',
+      query: {
+        time: 1669277354578,
+        secretKey: 'SAKILA_API_AUTHENTICATION_SERVER_SECRET_KEY',
+        v: 'V1'
+      },
+      body: { first_name: '', last_name: 'd' }
+    },
+    res: {
+      statusCode: 200,
+      body: { success: false, message: 'first_name does not empty' }
+    },
+    responseTime: 39
+  },
+  level: 'info',
+  message: 'HTTP POST /api/actors/',
+  timestamp: 'Nov-24-2022 15:09:14'
+}

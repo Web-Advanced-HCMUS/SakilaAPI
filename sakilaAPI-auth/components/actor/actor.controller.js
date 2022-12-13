@@ -1,6 +1,8 @@
 import axios from "axios";
+import env from 'dotenv';
+env.config();
 
-const baseUrl = 'http://localhost:3333/api';
+const baseUrl = process.env.BASE_URL + '/api';
 
 const getAllActors = async (req, res, next) => {
     try {
@@ -15,7 +17,7 @@ const getAllActors = async (req, res, next) => {
 
         return res.status(200).json(response.data);
     } catch (error) {
-        console.error(error.response.data);
+        console.error(error.message);
     }
 }
 

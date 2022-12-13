@@ -34,7 +34,7 @@ io.on('connection', function (socket) {
 
     // Leave the room if the user closes the socket
     socket.on("disconnect", () => {
-        console.log(`Client ${socket.id} diconnected`);
+        console.log(`Client ${socket.id} disconnected`);
         socket.leave(roomId);
     });
 
@@ -44,6 +44,7 @@ io.on('connection', function (socket) {
     })
 
     socket.on('actor change', (msg) => {
+        console.log(`user ${socket.id} have changed in databased`)
         io.emit('actor change', msg);
     })
 })

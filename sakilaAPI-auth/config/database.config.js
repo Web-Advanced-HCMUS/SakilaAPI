@@ -1,25 +1,27 @@
 import knex from 'knex';
+import env from 'dotenv';
+env.config();
 
 const sakilaDB = knex({
-    client: 'mysql2',
+    client: process.env.DATABASE_CLIENT,
     connection: {
-        host: '127.0.0.1',
-        port: 3306,
-        user: 'root',
+        host: process.env.DATABASE_HOST,
+        port: process.env.DATABASE_PORT,
+        user: process.env.DATABASE_USER,
         password: '',
-        database: 'sakila'
+        database: process.env.DATABASE_SAKILA_DB
     },
     pool: { min: 0, max: 10 }
 });
 
 const userDB = knex({
-    client: 'mysql2',
+    client: process.env.DATABASE_CLIENT,
     connection: {
-        host: '127.0.0.1',
-        port: 3306,
-        user: 'root',
+        host: process.env.DATABASE_HOST,
+        port: process.env.DATABASE_PORT,
+        user: process.env.DATABASE_USER,
         password: '',
-        database: 'user'
+        database: process.env.DATABASE_USER_DB
     },
     pool: { min: 0, max: 10 }
 });

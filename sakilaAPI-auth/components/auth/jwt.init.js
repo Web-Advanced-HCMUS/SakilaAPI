@@ -19,6 +19,7 @@ const verifyAccessToken = async function(req, res, next) {
             const payload = await JWT.verify(token, process.env.KEY_ACCESSTOKEN);
             req.user = payload;
 
+            // Create SECRET_KEY to communicate with resource server
             req.currentTime = Date.now();
             req.sign = genSign(req.query, req.currentTime);
 

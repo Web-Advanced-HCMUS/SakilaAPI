@@ -66,13 +66,16 @@
 
         socket.on('actor change', function(res){
             console.log(res)
-            var tr = document.createElement('tr')
-            tr.innerHTML = `<td>${res.actor_id}</td>
+            if(res){
+                var tr = document.createElement('tr')
+                tr.innerHTML = `<td>${res.actor_id}</td>
                                             <td>${res.first_name}</td>
                                             <td>${res.last_name}</td>
                                              <td>${res.last_update}</td>`
-            document.getElementById('actor-table').childNodes.item(3).appendChild(tr)
-            window.scrollTo(0, document.body.scrollHeight)
+                document.getElementById('actor-table').childNodes.item(3).appendChild(tr)
+                window.scrollTo(0, document.body.scrollHeight)
+            }
+
         })
 
         // Create instance of axios
